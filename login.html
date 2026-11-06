@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign in to Musical to enjoy your favourite songs and albums.">
+  <title>Musical &ndash; Sign In</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="note-icon" aria-hidden="true"></span>
+        <span>Musical</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <span>About Us</span>
+        <span>Music</span>
+        <span>Albums</span>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-primary" href="login.html">Sign in</a>
+        <a class="btn btn-outline" href="login.html">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+ 
+
+  <main class="login-main">
+    <section class="login-panel" aria-labelledby="login-title">
+      <h1 id="login-title" class="sr-only">Sign in to Musical</h1>
+
+      <form class="login-form" action="index.html">
+  <div class="field">
+    <label for="email">Username or Email</label>
+    <input id="email" type="text" placeholder="Enter anything" autocomplete="username" readonly>
+  </div>
+
+  <div class="field">
+    <label for="password">Password</label>
+    <input id="password" type="password" placeholder="Password" autocomplete="current-password" readonly>
+  </div>
+
+  <div class="form-row">
+    <label class="remember">
+      <input type="checkbox" id="remember" checked>
+      <span style="font-weight: bold; color: inherit;">Remember Me</span>
+    </label>
+    <a class="link" href="login.html">Forgot password?</a>
+  </div>
+
+  <button class="login-btn" type="submit">LOGIN</button>
+
+  <p class="register">Not a member ? <a class="link" href="login.html">Register</a></p>
+</form>
+    </section>
+  </main>
+
+ 
+  
+  <footer class="site-footer">
+    <span class="note-icon" aria-hidden="true"></span>
+    <span>Musical Entertainment</span>
+    <span class="note-icon" aria-hidden="true"></span>
+  </footer>
+
+</body>
+</html>

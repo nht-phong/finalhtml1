@@ -1,0 +1,6 @@
+# Assignment paper (not part of the website)
+*.docx
+
+# OS files
+Thumbs.db
+.DS_Store
