@@ -228,6 +228,8 @@ input {
 }
 
 .album-card {
+  display: flex;
+  flex-direction: column;
   padding: 9px 9px 11px;
   border: 1px solid #f2e6ec;
   border-radius: 10px;
@@ -252,8 +254,8 @@ input {
 }
 
 .stars {
-  margin: 0;
-  padding-left: 1px;
+  margin: auto 0 0;
+  padding: 8px 0 0 1px;
   color: var(--star);
   font-size: 18px;
   line-height: 1;
